@@ -40,7 +40,7 @@ heartbeat_rec = db.sync_workers.find_one_and_update(
 	{
 		"Process": os.getpid(),
 		"Host": socket.gethostname()
-	}, { 
+	}, {
 		"$set": {
 			"Process": os.getpid(),
 			"Host": socket.gethostname(),

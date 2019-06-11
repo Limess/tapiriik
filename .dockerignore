@@ -1,0 +1,8 @@
+.gitignore
+.travis.yml
+bootstrap.sh
+LICENSE
+NOTICE
+*.md
+Vagrantfile
+*.sublime-project
